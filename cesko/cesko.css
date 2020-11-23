@@ -225,7 +225,7 @@ p{
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 60px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;}
@@ -245,10 +245,10 @@ p{
 	color: white;
 	font-family: 'prism', Verdana, Arial, serif;
 	font-weight: normal;
-	font-size: 60px;
+	font-size: 350%;
 	padding: 8px 12px;
 	position: absolute;
-	bottom: 45%;
+	bottom: 40%;
 	width: 100%;
 	text-align: center;}
 
