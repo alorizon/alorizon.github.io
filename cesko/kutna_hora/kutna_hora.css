@@ -30,19 +30,21 @@ table {border-collapse: collapse;border-spacing: 0;}
 /******************Nouvelles polices de caractère*******************/
 @font-face 
 {font-family : 'butler';
-src: url('Fonts/butler_regular.otf') format('otf');}
+src: url('../../Fonts/butler_regular.otf') format('otf');}
 
 @font-face 
 {font-family : 'prism';
-src: url('Fonts/prism_regular.otf') format('otf');}
+src: url('../../Fonts/prism_regular.otf') format('otf');
+src: url('../../Fonts/font.woff2') format('woff2'), 
+url('../../Fonts/font.woff') format('woff');}
 
 @font-face 
 {font-family : 'old';
-src: url('../Fonts/old_standard.ttf') format('TrueType');}
+src: url('../../Fonts/old_standard.ttf') format('TrueType');}
 
 @font-face 
 {font-family : 'poiret';
-src: url('../Fonts/poiret.ttf') format('TrueType');}
+src: url('../../Fonts/poiret.ttf') format('TrueType');}
 /*******************************************************************/
 
 html{ 
@@ -188,7 +190,6 @@ p.email{
   margin-bottom: 0%;
   color: white;
   text-align: center;
-  height: 30;
   line-height: 15px;}
 
 p.email a, a:active{
