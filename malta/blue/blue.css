@@ -1,0 +1,196 @@
+/***********************reset css**********************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/******************Nouvelles polices de caractère*******************/
+
+@font-face 
+{font-family : 'butler';
+src: url('Fonts/butler_regular.otf') format('otf');}
+
+@font-face 
+{font-family : 'prism';
+src: url('Fonts/prism_regular.otf') format('otf');}
+
+@font-face 
+{font-family : 'old';
+src: url('../Fonts/old_standard.ttf') format('TrueType');}
+
+@font-face 
+{font-family : 'poiret';
+src: url('../Fonts/poiret.ttf') format('TrueType');}
+/*******************************************************************/
+
+html{ 
+  margin:0;
+  padding:0;
+  background: white; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+#logo{
+ 	z-index: 100;
+	margin-top: 40px;
+	margin-left: 10%;
+	height: 40px;
+	width: 40px;
+	cursor: pointer;}
+
+#back{  
+  float: right;
+  margin-top: 40px;
+  margin-right: 10%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;}
+
+h1{
+	cursor: pointer;
+	top: 0px;
+	padding: 0px 0px;	
+	font-family: 'prism', Verdana, Arial, serif;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	color: black;}
+
+h2{
+	padding: 0px 0px;	
+	font-family: 'old', Verdana, Arial, serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	color: black;}
+
+ p{
+	
+	margin-top: 50px;
+	padding: 0px 10%;
+	font-family: 'old', Verdana, Arial, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: justify;
+	color: black;}
+
+
+/****************************SLIDE SHOW ***********************************/
+
+/*https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 70%;
+  margin-left: 15%;
+  position: relative;
+	margin-top : 30px;}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 6px;
+  width: 6px;
+  margin: 10px 2px;
+  margin-bottom: -10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;}
+
+.active, .dot:hover {
+  background-color: #717171;}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+p.email{
+  background-color: #202020;
+  padding:30px 0px; 
+  font-family: 'poiret', Verdana, serif;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 100px;
+  margin-bottom: 0%;
+  color: white;
+  text-align: center;
+  height: 30;
+  line-height: 15px;}
+
+p.email a, a:active{
+  color: white;
+  text-decoration: none;}
