@@ -92,196 +92,129 @@ h2{
 	text-align: center;
 	color: black;}
 
-#titre_logement{ 
-	font-family: 'prism', Verdana, Arial, serif;
-	font-size: 30px;
-	font-weight: normal;}
+h3{
+  margin-top: 20px;
+  font-family: 'prism', Verdana, Arial, serif;
+  font-size: 25px;
+  font-style: normal;
+  text-align: left;
+  padding: 10px 10%;
+  color: black;}
 
-.logement p{
+p{
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-top: 50px;
 	font-family: 'old', Verdana, Arial, serif;
 	font-size: 16px;
 	font-style: normal;
 	text-align: justify;
 	color: black;}
 
-.logement .slideshow-container{
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 50px;}
+/************************logement****************************/
+.container {
+  width: 80%;
+  margin: 2rem auto; }
 
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(8, 1.5fr);
+  grid-template-rows: repeat(8, 8vw);
+  grid-gap: 5px;}
 
-#titre_food{ 
-	font-family: 'prism', Verdana, Arial, serif;
-	text-align: justify;
-	font-size: 30px;
-	font-weight: normal;}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
 
-.food p{
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 50px;
-	font-family: 'old', Verdana, Arial, serif;
-	font-size: 16px;
-	font-style: normal;
-	text-align: justify;
-	color: black;}
+.gallery__item--1 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;}
 
-.food .img_style{
-	max-width: 100%;
-	margin-right: 55%;
-	margin-left:  3%;}
+.gallery__item--2 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;}
 
-/*******************SLIDE SHOW LOGEMENT***********************************/
+.gallery__item--3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;}
 
-/*https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+.gallery__item--4 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 6;}
 
-* {box-sizing:border-box}
+.gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;}
 
-/* Slideshow container */
-.slideshow-container {
-	max-width: 100%;
-	margin-left : 80%;}
+.gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;}
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
+/**************************FOOD*************************/
+.container2 {
+  width: 80%;
+  margin: 2rem auto; }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;}
+.gallery2{
+  display: grid;
+  grid-template-columns: repeat(8, 1.5fr);
+  grid-template-rows: repeat(8, 8vw);
+  grid-gap: 5px;}
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+.gallery__img2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;}
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);}
+.gallery__item2--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;}
 
+.gallery__item2--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;}
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 6px;
-  width: 6px;
-  margin: 10px 2px;
-  margin-bottom: -10px;
-  /*background-color: #bbb;*/
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;}
+.gallery__item2--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;}
 
-.active, .dot:hover {
-  background-color: #717171;}
+.gallery__item2--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;}
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 0.5s;
-  animation-name: fade;
-  animation-duration: 0.5s;}
+.gallery__item2--5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;}
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+.gallery__item2--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;}
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/*******************SLIDE SHOW NOURRITURE***********************************/
-
-/*https://www.w3schools.com/howto/howto_js_slideshow.asp*/
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-	max-width: 100%;
-	position: relative;
-	margin-top : 30px;}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);}
-
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 6px;
-  width: 6px;
-  margin: 10px 2px;
-  margin-bottom: -10px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;}
-
-.active, .dot:hover {
-  background-color: #717171;}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 0.5s;
-  animation-name: fade;
-  animation-duration: 0.5s;}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+/*******************************************************/
 
 p.email{
   background-color: #202020;
