@@ -29,10 +29,6 @@ table {border-collapse: collapse;border-spacing: 0;}
 
 /******************Nouvelles polices de caractère*******************/
 @font-face 
-{font-family : 'butler';
-src: url('../../Fonts/butler_regular.otf') format('otf');}
-
-@font-face 
 {font-family : 'prism';
 src: url('../../Fonts/prism_regular.otf') format('otf');
 src: url('../../Fonts/font.woff2') format('woff2'), 
@@ -103,7 +99,7 @@ h2{
 	text-align: justify;
 	color: black;}
 
-    .container {
+.container {
   width: 80%;
   margin: 2rem auto; }
 
