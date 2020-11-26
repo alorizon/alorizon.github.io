@@ -112,29 +112,71 @@ h2{
 	text-align: center;
 	color: black;}
 
+p{
+	margin-bottom: 10%;
+	font-family: 'old', Verdana, Arial, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	color: black;}
+
+
 img{margin-bottom: -2px;}
+
+.choix1 img{
+	-moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	transition: all 0.6s;}
+
+.choix1 *{overflow: hidden;display: block;}
+
+.choix1:hover  img{ 
+	-moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);}
+
+.choix2 img{
+	-moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	transition: all 0.6s;}
+
+.choix2 *{overflow: hidden;display: block;}
+
+.choix2:hover img{ 
+	-moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);}
+
+.choix3 img{
+	-moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	transition: all 0.6s;}
+
+.choix3 *{overflow: hidden;display: block;}
+
+.choix3:hover  img{ 
+	-moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);}
 
 .text{
 	cursor: pointer;
 	background-color: transparent;
-	opacity: 1;
+	opacity: 1;}
+
+.text a{
+	z-index: 1000;
+	color: white;
 	font-family: 'prism', Verdana, Arial, serif;
+	text-align: center;
+	text-decoration: none;
 	font-weight: normal;
 	font-size: 400%;
 	position: absolute;
 	margin-top: 25%;
 	margin-left: 40%;}
 
-.text a{
-	color: white;
-	text-align: center;
-	text-decoration: none;}
-
-footer{
-	position:absolute;
-	margin-top: 30px;
-	bottom:0px;
-	width:100%;}
 
 p.email{
 	background-color: #202020;
