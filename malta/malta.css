@@ -61,7 +61,7 @@ html{
 
 h1{
 	font-family: 'prism', Verdana, Arial, serif;
-	font-size: 60px;
+	font-size: 500%;
 	font-style: normal;
 	font-weight: normal;
 	text-align: center;
@@ -73,7 +73,7 @@ h1{
 p{
 	padding: 0px 10%;
 	color: black;
-	font-size: 16px;
+	font-size: 100%;
 	font-family: 'old', Verdana, Arial, serif;
 	font-weight: normal;
 	text-align: justify;
@@ -95,10 +95,10 @@ p{
 	float: right;
 	/* always keep ham on top of everything */
 	z-index: 30;
-	top: -82px;
+	top: -80px;
 	right: 10%;
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 	border: none;
 	cursor: pointer;
 	background-color: transparent;
@@ -275,7 +275,7 @@ p.email{
 	padding:30px 0px; 
 	font-family: 'poiret', Verdana, serif;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 80%;
 	margin-top: 100px;
 	margin-bottom: 0%;
 	color: white;
