@@ -72,7 +72,7 @@ h1{
 	top: 0px;
 	padding: 0px 0px;	
 	font-family: 'prism', Verdana, Arial, serif;
-	font-size: 60px;
+	font-size: 400%;
 	font-style: normal;
 	font-weight: normal;
 	text-align: center;
@@ -84,7 +84,7 @@ h1{
 h2{
 	padding: 0px 0px;	
 	font-family: 'old', Verdana, Arial, serif;
-	font-size: 20px;
+	font-size: 150%;
 	font-style: normal;
 	text-align: center;
 	color: black;}
@@ -93,7 +93,7 @@ h2{
 	margin-top: 50px;
 	padding: 0px 10%;
 	font-family: 'old', Verdana, Arial, serif;
-	font-size: 16px;
+	font-size: 100%;
 	font-style: normal;
 	text-align: justify;
 	color: black;}
@@ -106,7 +106,7 @@ h2{
 .gallery{
   display: grid;
   grid-template-columns: repeat(8, 1.5fr);
-  grid-template-rows: repeat(8, 8vw);
+  grid-template-rows: repeat(10, 8vw);
   grid-gap: 5px;}
 
 .gallery__img {
@@ -114,48 +114,56 @@ h2{
     height: 100%;
     object-fit: cover;}
 
-.gallery__item--1 {
+.gallery__item--1 { 
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;}
-
-.gallery__item--2 {
-    grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 3;}
+    grid-row-end: 4;}
 
-.gallery__item--3 {
+.gallery__item--2 { 
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 1;
-    grid-row-end: 6;}
+    grid-row-end: 4;}
 
-.gallery__item--4 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 6;}
-
-.gallery__item--5 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 6;
-    grid-row-end: 9;}
-
-.gallery__item--6 {
+.gallery__item--3 { 
     grid-column-start: 5;
     grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 9;}
+    grid-row-start: 8;
+    grid-row-end: 11;}
+
+.gallery__item--4 { 
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 8;}
+
+.gallery__item--5 { 
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 11;}
+
+.gallery__item--6 { 
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 8;}
+
+
+.carte img{
+  margin-top: 5%;
+  margin-left: 15%;
+  text-align: center;
+  width: 70%;
+  height: 70%;}
 
 p.email{
   background-color: #202020;
   padding:30px 0px; 
   font-family: 'poiret', Verdana, serif;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 80%;
   margin-top: 100px;
   margin-bottom: 0%;
   color: white;

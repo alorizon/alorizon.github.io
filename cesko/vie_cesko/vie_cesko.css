@@ -28,9 +28,6 @@ blockquote:before, blockquote:after,q:before, q:after {content: '';content: none
 table {border-collapse: collapse;border-spacing: 0;}
 
 /******************Nouvelles polices de caractère*******************/
-@font-face 
-{font-family : 'butler';
-src: url('../../Fonts/butler_regular.otf') format('otf');}
 
 @font-face 
 {font-family : 'prism';
@@ -76,7 +73,7 @@ h1{
 	top: 0px;
 	padding: 0px 0px;	
 	font-family: 'prism', Verdana, Arial, serif;
-	font-size: 60px;
+	font-size: 400%;
 	font-style: normal;
 	font-weight: normal;
 	text-align: center;
@@ -87,7 +84,7 @@ h1{
 
 h2{
 	font-family: 'old', Verdana, Arial, serif;
-	font-size: 20px;
+	font-size: 150%;
 	font-style: normal;
 	text-align: center;
 	color: black;}
@@ -95,7 +92,7 @@ h2{
 h3{
   margin-top: 20px;
   font-family: 'prism', Verdana, Arial, serif;
-  font-size: 25px;
+  font-size: 150%;
   font-style: normal;
   text-align: left;
   padding: 10px 10%;
@@ -105,7 +102,7 @@ p{
 	margin-left: 10%;
 	margin-right: 10%;
 	font-family: 'old', Verdana, Arial, serif;
-	font-size: 16px;
+	font-size: 100%;
 	font-style: normal;
 	text-align: justify;
 	color: black;}
@@ -218,10 +215,12 @@ p{
 
 p.email{
   background-color: #202020;
-  padding:30px 0px; 
+  padding: 30px 0px; 
   font-family: 'poiret', Verdana, serif;
   font-weight: normal;
-  font-size: 14px;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 80%;
   margin-top: 100px;
   margin-bottom: 0%;
   color: white;
