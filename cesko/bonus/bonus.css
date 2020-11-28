@@ -132,7 +132,7 @@ h2{
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 40px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;}
@@ -186,7 +186,7 @@ p.email{
   font-family: 'poiret', Verdana, serif;
   font-weight: normal;
   font-size: 80%;
-  margin-top: 100px;
+  margin-top: 340px;
   margin-bottom: 0%;
   color: white;
   text-align: center;
