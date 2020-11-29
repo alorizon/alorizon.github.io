@@ -52,10 +52,10 @@ html{
 
 #logo{
 	z-index: 100;
-	margin-top: 60px;
+	margin-top: 80px;
 	margin-left: 10%;
-	height: 60px;
-	width: 60px;
+	height: 80px;
+	width: 80px;
 	opacity: 1;
 	cursor: pointer;}
 
@@ -101,8 +101,8 @@ p{
 	z-index: 30;
 	top: -82px;
 	right: 10%;
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 	border: none;
 	cursor: pointer;
 	background-color: transparent;
@@ -117,8 +117,8 @@ p{
 	top: -82px;
 	right: 5%;
 	background-image: url("https://res.cloudinary.com/lor/image/upload/v1606159216/exit_spwinj.png");
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 	border: none;
 	cursor: pointer;
 	background-color: transparent;}
