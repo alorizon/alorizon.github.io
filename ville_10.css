@@ -30,17 +30,17 @@ table {border-collapse: collapse;border-spacing: 0;}
 /******************Nouvelles polices de caractère*******************/
 @font-face 
 {font-family : 'prism';
-src: url('../../Fonts/prism_regular.otf') format('otf');
-src: url('../../Fonts/font.woff2') format('woff2'), 
-url('../../Fonts/font.woff') format('woff');}
+src: url('Fonts/prism_regular.otf') format('otf');
+src: url('Fonts/font.woff2') format('woff2'), 
+url('Fonts/font.woff') format('woff');}
 
 @font-face 
 {font-family : 'old';
-src: url('../../Fonts/old_standard.ttf') format('TrueType');}
+src: url('Fonts/old_standard.ttf') format('TrueType');}
 
 @font-face 
 {font-family : 'poiret';
-src: url('../../Fonts/poiret.ttf') format('TrueType');}
+src: url('Fonts/poiret.ttf') format('TrueType');}
 /*******************************************************************/
 
 html{ 
@@ -60,7 +60,7 @@ html{
 	opacity: 1;
 	cursor: pointer;}
 
- #back{  
+#back{  
   float: right;
   margin-top: 40px;
   margin-right: 10%;
@@ -69,6 +69,8 @@ html{
   cursor: pointer;}
 
 h1{
+	top: 0px;
+	padding: 0px 0px;	
 	font-family: 'prism', Verdana, Arial, serif;
 	font-size: 400%;
 	font-style: normal;
@@ -76,10 +78,13 @@ h1{
 	text-align: center;
 	color: black;}
 
+h1 a{text-decoration: none; color: black;}
+
 .back_cesko{
 	text-decoration: none;}
 
 h2{
+	padding: 0px 0px;	
 	font-family: 'old', Verdana, Arial, serif;
 	font-size: 150%;
 	font-style: normal;
@@ -123,63 +128,51 @@ h2{
     grid-row-end: 4;}
 
 .gallery__item--3 { 
-    grid-column-start: 4;
-    grid-column-end: 9;
-    grid-row-start: 14;
-    grid-row-end: 17;}
-
-.gallery__item--4 { 
-    grid-column-start: 4;
-    grid-column-end: 9;
-    grid-row-start: 4;
-    grid-row-end: 7;}
-
-.gallery__item--5 { 
-    grid-column-start: 4;
-    grid-column-end: 9;
-    grid-row-start: 7;
-    grid-row-end: 11;}
-
-.gallery__item--6 { 
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: 8;}
 
-.gallery__item--7 { 
+.gallery__item--4 { 
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 8;}
+
+.gallery__item--5 { 
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 11;
-    grid-row-end: 14;}
+    grid-row-start: 8;
+    grid-row-end: 12;}
 
-.gallery__item--8 { 
+.gallery__item--6 { 
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 12;}
+
+.gallery__item--7 { 
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 8;
-    grid-row-end: 11;}
+    grid-row-start: 12;
+    grid-row-end: 16;}
+
+.gallery__item--8 { 
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 12;
+    grid-row-end: 16;}
 
 .gallery__item--9 { 
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 14;
-    grid-row-end: 17;}
+    grid-column-end: 5;
+    grid-row-start: 16;
+    grid-row-end: 20;}
 
 .gallery__item--10 { 
     grid-column-start: 5;
     grid-column-end: 9;
-    grid-row-start: 11;
-    grid-row-end: 14;}
-
-.gallery__item--11 { 
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 17;
-    grid-row-end: 20;}
-
-.gallery__item--12 { 
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 17;
+    grid-row-start: 16;
     grid-row-end: 20;}
 
 .carte img{
