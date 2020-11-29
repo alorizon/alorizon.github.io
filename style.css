@@ -143,20 +143,18 @@ img{margin-bottom: -2px;}
 
 .text{
 	cursor: pointer;
-	background-color: transparent;
-	opacity: 1;}
+	background-color: transparent;}
 
 .text a{
 	z-index: 1000;
-	color: white;
+	color: red;
 	font-family: 'prism', Verdana, Arial, serif;
-	text-align: center;
 	text-decoration: none;
 	font-weight: normal;
 	font-size: 400%;
-	position: absolute;
+	position: relative;
 	margin-top: 25%;
-	margin-left: 40%;}
+	/*margin-left: 45%;*/}
 
 
 p.email{

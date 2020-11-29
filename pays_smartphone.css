@@ -52,7 +52,7 @@ html{
 
 #logo{
 	z-index: 100;
-	margin-top: 40px;
+	margin-top: 60px;
 	margin-left: 10%;
 	height: 60px;
 	width: 60px;
@@ -117,8 +117,8 @@ p{
 	top: -82px;
 	right: 5%;
 	background-image: url("https://res.cloudinary.com/lor/image/upload/v1606159216/exit_spwinj.png");
-	width: 40px;
-	height: 40px;
+	width: 60px;
+	height: 60px;
 	border: none;
 	cursor: pointer;
 	background-color: transparent;}
@@ -162,7 +162,7 @@ p{
 	padding: 15px;
 	font-family: 'old', Verdana, Arial, sans-serif;
 	font-size: 400%;
-	line-height: 10px;
+	line-height: 150px;
 	text-decoration: none;}
 
 .navbar ul li a:hover, .navbar ul li a:focus {
@@ -232,7 +232,7 @@ p{
 	font-size: 600%;
 	padding: 8px 12px;
 	position: absolute;
-	bottom: 45%;
+	bottom: 42%;
 	width: 100%;
 	text-align: center;}
 
