@@ -161,8 +161,8 @@ p{
 	color: black;
 	padding: 6px;
 	font-family: 'old', Verdana, Arial, sans-serif;
-	font-size: 200%;
-	line-height: 40px;
+	font-size: 600%;
+	line-height: 100px;
 	text-decoration: none;}
 
 .navbar ul li a:hover, .navbar ul li a:focus {
