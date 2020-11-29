@@ -45,27 +45,43 @@ src: url('Fonts/poiret.ttf') format('TrueType');}
 /************************************************************/
 
 /*********************************media query********************/
-/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
-@media screen and (max-width: 1280px){
+/*iPADs (portrait and landscape)*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles pour cette Media Queries */
+.navbar{
+ 	position: fixed;
+ 	margin-top: 0px;
+ 	z-index: 20;
+ 	top: 0;
+  	right: 0;
+  	background: white;
+  	opacity: 1;
+  	width: 80%;
+	height: 100%;
+	overflow: hidden;
+	color: white;
+	transition: transform .5 ;
+	transform: translateX(100%);
+	transition: transform .5s ease-in-out;}
 }
 
-/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
-@media all and (min-width: 1024px) and (max-width: 1280px){}
-
-/* Sur les téléviseurs */
-@media tv{  }
-
-/* Sur tous types d'écrans orientés verticalement */
-@media all and (orientation: portrait){}
-
+/*smarphone landscapte and portrait*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	.navbar ul li a{
-	color: black;
-	padding: 4px;
-	font-family: 'old', Verdana, Arial, sans-serif;
-	font-size: 400%;
-	line-height: 40px;
-	text-decoration: none;}
+	.navbar{
+ 	position: fixed;
+ 	margin-top: 0px;
+ 	z-index: 20;
+ 	top: 0;
+  	right: 0;
+  	background: white;
+  	opacity: 1;
+  	width: 80%;
+	height: 100%;
+	overflow: hidden;
+	color: white;
+	transition: transform .5 ;
+	transform: translateX(100%);
+	transition: transform .5s ease-in-out;}
 }
 /****************************************************************/
 
