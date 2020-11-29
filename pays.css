@@ -31,17 +31,17 @@ table {border-collapse: collapse;border-spacing: 0;}
 /**********************************************/
 @font-face 
 {font-family : 'prism';
-src: url('../Fonts/prism_regular.otf') format('otf');
-src: url('../Fonts/font.woff2') format('woff2'), 
+src: url('Fonts/prism_regular.otf') format('otf');
+src: url('Fonts/font.woff2') format('woff2'), 
 url('../Fonts/font.woff') format('woff');}
 
 @font-face 
 {font-family : 'old';
-src: url('../Fonts/old_standard.ttf') format('TrueType');}
+src: url('Fonts/old_standard.ttf') format('TrueType');}
 
 @font-face 
 {font-family : 'poiret';
-src: url('../Fonts/poiret.ttf') format('TrueType');}
+src: url('Fonts/poiret.ttf') format('TrueType');}
 /************************************************************/
 html{ 
   /*margin:0;
