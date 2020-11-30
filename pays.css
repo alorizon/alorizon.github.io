@@ -52,7 +52,8 @@ html{
 
 #logo{
 	z-index: 100;
-	margin-top: 40px;
+	float:left;
+	margin-top: -50px;
 	margin-left: 10%;
 	height: 40px;
 	width: 40px;
@@ -73,7 +74,7 @@ h1{
 	text-align: center;
 	color: black;
 	margin-left: 5%;
-	margin-top: -40px;
+	margin-top: 100px;
 	margin-bottom: 50px;}
 
 p{
@@ -99,7 +100,7 @@ p{
 	position: relative;
 	float: right;
 	z-index: 30;
-	top: -82px;
+	top: -50px;
 	right: 10%;
 	width: 40px;
 	height: 40px;

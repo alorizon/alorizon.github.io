@@ -78,6 +78,8 @@ h1{
   font-weight: normal;
   text-align: center;
   color: black;}
+  
+h1 a{text-decoration:none; color:black;}
 
 h2{
   padding: 0px 0px; 

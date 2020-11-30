@@ -12,12 +12,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;}
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {display: block;}
@@ -28,20 +28,19 @@ blockquote:before, blockquote:after,q:before, q:after {content: '';content: none
 table {border-collapse: collapse;border-spacing: 0;}
 
 /******************Nouvelles polices de caractère*******************/
-
 @font-face 
 {font-family : 'prism';
-src: url('../../Fonts/prism_regular.otf') format('otf');
-src: url('../../Fonts/font.woff2') format('woff2'), 
-url('../../Fonts/font.woff') format('woff');}
+src: url('Fonts/prism_regular.otf') format('otf');
+src: url('Fonts/font.woff2') format('woff2'), 
+url('Fonts/font.woff') format('woff');}
 
 @font-face 
 {font-family : 'old';
-src: url('../../Fonts/old_standard.ttf') format('TrueType');}
+src: url('Fonts/old_standard.ttf') format('TrueType');}
 
 @font-face 
 {font-family : 'poiret';
-src: url('../../Fonts/poiret.ttf') format('TrueType');}
+src: url('Fonts/poiret.ttf') format('TrueType');}
 /*******************************************************************/
 
 html{ 
@@ -53,12 +52,13 @@ html{
 }
 
 #logo{
-  z-index: 100;
-  margin-top: 100px;
-  margin-left: 10%;
-  height: 80px;
-  width: 80px;
-  cursor: pointer;}
+	z-index: 100;
+	margin-top: 100px;
+	margin-left: 10%;
+	height: 80px;
+	width: 80px;
+	opacity: 1;
+	cursor: pointer;}
 
 #back{  
   float: right;
@@ -69,44 +69,45 @@ html{
   cursor: pointer;}
 
 h1{
-  cursor: pointer;
-  top: 0px;
-  padding: 0px 0px; 
-  font-family: 'prism', Verdana, Arial, serif;
-  font-size: 800%;
-  font-style: normal;
-  font-weight: normal;
-  text-align: center;
-  color: black;}
+	top: 0px;
+	padding: 0px 0px;	
+	font-family: 'prism', Verdana, Arial, serif;
+	font-size: 800%;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	color: black;}
 
-h1 a{text-decoration:none; color:black;}
+h1 a{text-decoration: none; color: black;}
+
+.back_cesko{
+	text-decoration: none;}
 
 h2{
-  padding: 0px 0px; 
-  font-family: 'old', Verdana, Arial, serif;
-  font-size: 300%;
-  font-style: normal;
-  text-align: center;
-  color: black;}
+	padding: 0px 0px;	
+	font-family: 'old', Verdana, Arial, serif;
+	font-size: 300%;
+	font-style: normal;
+	text-align: center;
+	color: black;}
 
  p{
-  margin-top: 50px;
-  padding: 0px 10%;
-  font-family: 'old', Verdana, Arial, serif;
-  font-size: 100%;
-  font-style: normal;
-  text-align: justify;
-  color: black;}
-
+	margin-top: 50px;
+	padding: 0px 10%;
+	font-family: 'old', Verdana, Arial, serif;
+	font-size: 100%;
+	font-style: normal;
+	text-align: justify;
+	color: black;}
 
 .container {
   width: 80%;
-  margin: 2rem auto; }
+  margin: 2rem auto;}
 
 .gallery{
   display: grid;
   grid-template-columns: repeat(8, 1.5fr);
-  grid-template-rows: repeat(47, 8vw);
+  grid-template-rows: repeat(23, 8vw);
   grid-gap: 5px;}
 
 .gallery__img {
@@ -128,24 +129,24 @@ h2{
 
 .gallery__item--3 { 
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: 8;}
 
 .gallery__item--4 { 
-    grid-column-start: 4;
+    grid-column-start: 6;
     grid-column-end: 9;
     grid-row-start: 4;
     grid-row-end: 8;}
 
 .gallery__item--5 { 
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 5;
     grid-row-start: 8;
     grid-row-end: 12;}
 
 .gallery__item--6 { 
-    grid-column-start: 6;
+    grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 8;
     grid-row-end: 12;}
@@ -162,111 +163,39 @@ h2{
     grid-row-start: 12;
     grid-row-end: 16;}
 
-
 .gallery__item--9 { 
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 5;
     grid-row-start: 16;
     grid-row-end: 20;}
 
 .gallery__item--10 { 
-    grid-column-start: 6;
+    grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 16;
     grid-row-end: 20;}
 
 .gallery__item--11 { 
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-row-start: 20;
     grid-row-end: 24;}
 
 .gallery__item--12 { 
-    grid-column-start: 5;
+    grid-column-start: 6;
     grid-column-end: 9;
     grid-row-start: 20;
     grid-row-end: 24;}
 
-.gallery__item--13 { 
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 24;
-    grid-row-end: 28;}
 
-.gallery__item--14 { 
-    grid-column-start: 4;
-    grid-column-end: 9;
-    grid-row-start: 24;
-    grid-row-end: 28;}
+.carte img{
+  margin-top: 5%;
+  margin-left: 15%;
+  text-align: center;
+  width: 70%;
+  height: 70%;}
 
-.gallery__item--15 { 
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 28;
-    grid-row-end: 32;}
 
-.gallery__item--16 { 
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 28;
-    grid-row-end: 32;}
-
-.gallery__item--17 { 
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 32;
-    grid-row-end: 36;}
-
-.gallery__item--18 { 
-    grid-column-start: 6;
-    grid-column-end: 9;
-    grid-row-start: 32;
-    grid-row-end: 36;}
-
-.gallery__item--19 { 
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 36;
-    grid-row-end: 40;}
-
-.gallery__item--20 { 
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 36;
-    grid-row-end: 40;}
-
-.gallery__item--21 { 
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 40;
-    grid-row-end: 44;}
-
-.gallery__item--22 { 
-    grid-column-start: 4;
-    grid-column-end: 9;
-    grid-row-start: 40;
-    grid-row-end: 44;}
-
-.gallery__item--23 { 
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 44;
-    grid-row-end: 48;}
-
-.gallery__item--24 { 
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 44;
-    grid-row-end: 48;}
-
-.next_city img{
-  margin-top: 20px;
-  cursor: pointer;
-  float: right;
-  margin-right: 10%;
-  width: 90px;
-  height: 90px;}
-  
 p.email{
   background-color: #202020;
   padding:30px 0px; 
