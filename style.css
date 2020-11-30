@@ -153,9 +153,9 @@ img{margin-bottom: -2px;}
 	font-weight: normal;
 	font-size: 400%;
 	position: absolute;
-	
+	vertical-align: middle;
 	margin-top: 25%;
-	/*margin-left: 45%;*/}
+	margin-left: 40%;}
 
 
 p.email{

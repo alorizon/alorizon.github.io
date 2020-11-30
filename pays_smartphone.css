@@ -52,7 +52,7 @@ html{
 
 #logo{
 	z-index: 100;
-	margin-top: 80px;
+	margin-top: 100px;
 	margin-left: 10%;
 	height: 80px;
 	width: 80px;
@@ -161,8 +161,8 @@ p{
 	color: black;
 	padding: 15px;
 	font-family: 'old', Verdana, Arial, sans-serif;
-	font-size: 400%;
-	line-height: 150px;
+	font-size: 350%;
+	line-height: 120px;
 	text-decoration: none;}
 
 .navbar ul li a:hover, .navbar ul li a:focus {
@@ -229,7 +229,7 @@ p{
 	color: white;
 	font-family: 'prism', Verdana, Arial, serif;
 	font-weight: normal;
-	font-size: 600%;
+	font-size: 500%;
 	padding: 8px 12px;
 	position: absolute;
 	bottom: 42%;
