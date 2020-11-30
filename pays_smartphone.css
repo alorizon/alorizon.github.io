@@ -70,7 +70,7 @@ html{
 
 h1{
 	font-family: 'prism', Verdana, Arial, serif;
-	font-size: 5rem;
+	font-size: 6rem;
 	font-style: normal;
 	font-weight: normal;
 	text-align: center;
@@ -233,7 +233,7 @@ p{
 	color: white;
 	font-family: 'prism', Verdana, Arial, serif;
 	font-weight: normal;
-	font-size: 9rem;
+	font-size: 4rem;
 	padding: 8px 12px;
 	position: absolute;
 	bottom: 42%;
