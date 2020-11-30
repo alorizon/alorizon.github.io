@@ -70,7 +70,7 @@ html{
 
 h1{
 	font-family: 'prism', Verdana, Arial, serif;
-	font-size: 500%;
+	font-size: 5rem;
 	font-style: normal;
 	font-weight: normal;
 	text-align: center;
@@ -82,7 +82,7 @@ h1{
 p{
 	padding: 0px 10%;
 	color: black;
-	font-size: 90%;
+	font-size: 1rem;
 	font-family: 'old', Verdana, Arial, serif;
 	text-align: justify;
 	margin-bottom: 40px;}
@@ -117,7 +117,7 @@ p{
 	position: relative;
 	float: right;
 	z-index: 30;
-	top: -82px;
+	top: -50px;
 	right: 5%;
 	background-image: url("https://res.cloudinary.com/lor/image/upload/v1606159216/exit_spwinj.png");
 	width: 80px;
@@ -165,7 +165,7 @@ p{
 	padding: 15px;
 	font-family: 'old', Verdana, Arial, sans-serif;
 	margin-top: 30px;
-	font-size: 300%;
+	font-size: 1.5rem;
 	line-height: 100px;
 	text-decoration: none;}
 
@@ -233,7 +233,7 @@ p{
 	color: white;
 	font-family: 'prism', Verdana, Arial, serif;
 	font-weight: normal;
-	font-size: 500%;
+	font-size: 9rem;
 	padding: 8px 12px;
 	position: absolute;
 	bottom: 42%;
@@ -286,7 +286,7 @@ p.email{
 	padding:30px 0px; 
 	font-family: 'poiret', Verdana, serif;
 	font-weight: normal;
-	font-size: 80%;
+	font-size: 1rem;
 	margin-top: 340px;
 	margin-bottom: 0%;
 	color: white;
