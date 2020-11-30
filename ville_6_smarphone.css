@@ -53,26 +53,26 @@ html{
 
 #logo{
 	z-index: 100;
-	margin-top: 40px;
+	margin-top: 100px;
 	margin-left: 10%;
-	height: 40px;
-	width: 40px;
+	height: 80px;
+	width: 80px;
 	opacity: 1;
 	cursor: pointer;}
 
 #back{  
   float: right;
-  margin-top: 40px;
+  margin-top: 100px;
   margin-right: 10%;
-  height: 40px;
-  width: 40px;
+  height: 80px;
+  width: 80px;
   cursor: pointer;}
 
 h1{
-  top: 0px;
+	top: 0px;
 	padding: 0px 0px;	
 	font-family: 'prism', Verdana, Arial, serif;
-	font-size: 400%;
+	font-size: 800%;
 	font-style: normal;
 	font-weight: normal;
 	text-align: center;
@@ -84,11 +84,13 @@ h1 a{text-decoration: none; color: black;}
 	text-decoration: none;}
 
 h2{
+	padding: 0px 0px;	
 	font-family: 'old', Verdana, Arial, serif;
-	font-size: 150%;
+	font-size: 300%;
 	font-style: normal;
 	text-align: center;
 	color: black;}
+
 
  p{
 	margin-top: 50px;
@@ -99,14 +101,15 @@ h2{
 	text-align: justify;
 	color: black;}
 
-  .container {
+
+.container {
   width: 80%;
   margin: 2rem auto; }
 
 .gallery{
   display: grid;
   grid-template-columns: repeat(8, 1.5fr);
-  grid-template-rows: repeat(15, 8vw);
+  grid-template-rows: repeat(10, 8vw);
   grid-gap: 5px;}
 
 .gallery__img {
@@ -114,53 +117,41 @@ h2{
     height: 100%;
     object-fit: cover;}
 
-.gallery__item--1 {
+.gallery__item--1 { 
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 4;}
 
-.gallery__item--2 {
+.gallery__item--2 { 
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 4;}
 
-.gallery__item--3 {
+.gallery__item--3 { 
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 8;}
 
-.gallery__item--4 {
+.gallery__item--4 { 
     grid-column-start: 4;
     grid-column-end: 9;
     grid-row-start: 4;
     grid-row-end: 8;}
 
-.gallery__item--5 {
+.gallery__item--5 { 
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 8;
-    grid-row-end: 12;}
+    grid-row-end: 11;}
 
-.gallery__item--6 {
+.gallery__item--6 { 
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 8;
-    grid-row-end: 12;}
-
-.gallery__item--7 {
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 12;
-    grid-row-end: 16;}
-
-.gallery__item--8 {
-    grid-column-start: 6;
-    grid-column-end: 9;
-    grid-row-start: 12;
-    grid-row-end: 16;}
+    grid-row-end: 11;}
 
 .carte img{
   margin-top: 5%;
@@ -169,13 +160,14 @@ h2{
   width: 70%;
   height: 70%;}
 
+
 .next_city img{
   margin-top: 20px;
   cursor: pointer;
   float: right;
   margin-right: 10%;
-  width: 45px;
-  height: 45px;}
+  width: 90px;
+  height: 90px;}
 
 p.email{
   background-color: #202020;
@@ -187,6 +179,7 @@ p.email{
   margin-bottom: 0%;
   color: white;
   text-align: center;
+  height: 30;
   line-height: 15px;}
 
 p.email a, a:active{

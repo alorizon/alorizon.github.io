@@ -29,10 +29,6 @@ table {border-collapse: collapse;border-spacing: 0;}
 
 /******************Nouvelles polices de caractère*******************/
 @font-face 
-{font-family : 'butler';
-src: url('Fonts/butler_regular.otf') format('otf');}
-
-@font-face 
 {font-family : 'prism';
 src: url('Fonts/prism_regular.otf') format('otf');
 src: url('Fonts/font.woff2') format('woff2'), 
@@ -143,7 +139,6 @@ h2{
     grid-row-start: 5;
     grid-row-end: 9;}
 
-
 .carte img{
   margin-top: 5%;
   margin-left: 15%;
@@ -151,6 +146,13 @@ h2{
   width: 70%;
   height: 70%;}
 
+.next_city img{
+  margin-top: 20px;
+  cursor: pointer;
+  float: right;
+  margin-right: 10%;
+  width: 45px;
+  height: 45px;}
 
 p.email{
   background-color: #202020;
