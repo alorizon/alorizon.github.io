@@ -53,7 +53,7 @@ html{
 
 #logo{
 	z-index: 1000;
-	margin-top: 0px;
+	margin-top: -50px;
 	margin-left: 10%;
 	height: 80px;
 	width: 80px;
@@ -118,7 +118,7 @@ p{
 	position: relative;
 	float: right;
 	z-index: 30;
-	top: 10px;
+	margin-top: -50px;
 	right: 5%;
 	background-image: url("https://res.cloudinary.com/lor/image/upload/v1606159216/exit_spwinj.png");
 	width: 80px;
@@ -166,7 +166,7 @@ p{
 	margin-top: 100px;
 	padding: 15px;
 	font-family: 'old', Verdana, Arial, sans-serif;
-	margin-top: 100px;
+	top: 100px;
 	font-size: 3.5rem;
 	line-height: 100px;
 	text-decoration: none;}
@@ -289,11 +289,9 @@ p.email{
 	font-family: 'poiret', Verdana, serif;
 	font-weight: normal;
 	font-size: 0.8rem;
-	margin-top: 340px;
 	margin-bottom: 0%;
 	color: white;
 	text-align: center;
-	height: 30;
 	line-height: 10px;}
 
 p.email a, a:active{
