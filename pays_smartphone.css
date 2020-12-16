@@ -53,7 +53,7 @@ html{
 
 #logo{
 	z-index: 100;
-	margin-top: 10%;
+	margin-top: 10px;
 	margin-left: 10%;
 	height: 80px;
 	width: 80px;
@@ -69,6 +69,7 @@ html{
 
 h1{
   	margin-top: 100px;
+  	margin-bottom: 50px;
 	padding: 0px 0px;	
 	font-family: 'prism', Verdana, Arial, serif;
 	font-size: 8rem;
@@ -117,7 +118,7 @@ p{
 	position: relative;
 	float: right;
 	z-index: 30;
-	top: -50px;
+	top: 10%;
 	right: 5%;
 	background-image: url("https://res.cloudinary.com/lor/image/upload/v1606159216/exit_spwinj.png");
 	width: 80px;
@@ -164,7 +165,7 @@ p{
 	color: black;
 	padding: 15px;
 	font-family: 'old', Verdana, Arial, sans-serif;
-	margin-top: 30px;
+	margin-top: 100px;
 	font-size: 3.5rem;
 	line-height: 100px;
 	text-decoration: none;}
