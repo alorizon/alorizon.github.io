@@ -153,7 +153,7 @@ img{margin-bottom: -2px;}
 	text-align: center;
 	text-decoration: none;
 	font-weight: normal;
-	font-size: 4.5rem;
+	font-size: 6rem;
 	position: absolute;
 	margin-top: 25%;
 	margin-left: 35%;}
@@ -164,11 +164,11 @@ p.email{
 	padding:30px 0px; 
 	font-family: 'poiret', Verdana, serif;
 	font-weight: normal;
-	font-size: 0.5rem;
+	font-size: 0.8rem;
 	margin-bottom: 0%;
 	color: white;
 	text-align: center;
-	line-height: 15px;}
+	line-height: 10px;}
 
 p.email a, a:active{
 	color: white;
