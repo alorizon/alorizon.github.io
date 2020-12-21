@@ -116,14 +116,14 @@ h2{
   height: 53px;}
 
 .next_city img{
-  margin-top: 20px;
+  margin-top: 0px;
   cursor: pointer;
   float: right;
   margin-right: -130px;
   width: 60px;
   height: 60px;}
 
-.next_city_prague img{
+.next_city_only img{
   margin-top: 20px;
   cursor: pointer;
   float: right;
@@ -136,12 +136,11 @@ p.email{
   padding:30px 0px; 
   font-family: 'poiret', Verdana, serif;
   font-weight: normal;
-  font-size: 80%;
-  margin-top: 100px;
+  font-size: 0.8rem;
   margin-bottom: 0%;
   color: white;
   text-align: center;
-  line-height: 15px;}
+  line-height: 10px;}
 
 p.email a, a:active{
   color: white;

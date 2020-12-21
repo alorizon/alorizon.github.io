@@ -283,11 +283,9 @@ p.email{
 	font-family: 'poiret', Verdana, serif;
 	font-weight: normal;
 	font-size: 1rem;
-	margin-top: 340px;
 	margin-bottom: 0%;
 	color: white;
 	text-align: center;
-	height: 30;
 	line-height: 15px;}
 
 p.email a, a:active{
