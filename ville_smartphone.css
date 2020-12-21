@@ -106,14 +106,31 @@ h2{
   width: 70%;
   height: 70%;}
 
+.prev_city img{
+  position: relative;
+  margin-top: 40px;
+  cursor: pointer;
+  float: right;
+  margin-right: 150px;
+  width: 53px;
+  height: 53px;}
+
 .next_city img{
   margin-top: 20px;
   cursor: pointer;
   float: right;
-  margin-right: 10%;
-  width: 90px;
-  height: 90px;}
+  margin-right: -130px;
+  width: 60px;
+  height: 60px;}
 
+.next_city_prague img{
+  margin-top: 20px;
+  cursor: pointer;
+  float: right;
+  margin-right: 10%;
+  width: 60px;
+  height: 60px;}
+  
 p.email{
   background-color: #202020;
   padding:30px 0px; 

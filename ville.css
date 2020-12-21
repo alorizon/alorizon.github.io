@@ -64,12 +64,11 @@ html{
   float: right;
   margin-top: 60px;
   margin-right: 10%;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   cursor: pointer;}
 
 h1{
-	top: 0px;
 	padding: 0px 0px;	
 	font-family: 'prism', Verdana, Arial, serif;
 	font-size: 5.5rem;
@@ -116,8 +115,24 @@ h3{
   width: 70%;
   height: 70%;}
 
+.prev_city img{
+  position: relative;
+  margin-top: 40px;
+  cursor: pointer;
+  float: right;
+  margin-right: 150px;
+  width: 53px;
+  height: 53px;}
 
 .next_city img{
+  margin-top: 20px;
+  cursor: pointer;
+  float: right;
+  margin-right: -130px;
+  width: 60px;
+  height: 60px;}
+
+.next_city_only img{
   margin-top: 20px;
   cursor: pointer;
   float: right;
