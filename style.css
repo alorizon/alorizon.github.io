@@ -102,6 +102,23 @@ p{
 	text-align: center;
 	color: black;}
 
+.container { 
+	height: 150%;
+    overflow: hidden; 
+    margin: auto; } 
+
+.container img { 
+    width: 100%; 
+    transition: 0.5s all ease-in-out; } 
+       
+.container:hover img { 
+	-moz-transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06); } 
+
+
+/** {box-sizing:border-box}
+
 .choix img{
 	-moz-transition: all 0.6s;
 	-webkit-transition: all 0.6s;
@@ -109,10 +126,10 @@ p{
 
 .choix *{overflow: hidden;display: block;}
 
-.choix:hover  img{ 
+.choix:hover img{ 
 	-moz-transform: scale(1.06);
     -webkit-transform: scale(1.06);
-    transform: scale(1.06);}
+    transform: scale(1.06);}*/
 
 
 /* Container holding the image and the text */
