@@ -123,7 +123,7 @@ p{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family: 'prism', Verdana, Arial, serif;
-	font-size: 5rem;}
+	font-size: 7rem;}
 
 .container a{color: white; text-decoration: none;}
 
@@ -134,6 +134,7 @@ p.pied_page{
   font-weight: normal;
   font-size: 0.8rem;
   margin-bottom: 0%;
+  margin-top: -5px;
   color: white;
   text-align: center;
   height: 30;

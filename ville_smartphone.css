@@ -55,8 +55,8 @@ html{
 	z-index: 100;
 	margin-top: 100px;
 	margin-left: 10%;
-	height: 80px;
-	width: 80px;
+	height: 100px;
+	width: 100px;
 	opacity: 1;
 	cursor: pointer;}
 
@@ -64,8 +64,8 @@ html{
   float: right;
   margin-top: 100px;
   margin-right: 10%;
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   cursor: pointer;}
 
 h1{
@@ -112,16 +112,16 @@ h2{
   cursor: pointer;
   float: right;
   margin-right: 150px;
-  width: 53px;
-  height: 53px;}
+  width: 93px;
+  height: 93px;}
 
 .next_city img{
   margin-top: 0px;
   cursor: pointer;
   float: right;
   margin-right: -130px;
-  width: 60px;
-  height: 60px;}
+  width: 100px;
+  height: 100px;}
 
 .next_city_only img{
   margin-top: 20px;
