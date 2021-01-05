@@ -52,11 +52,11 @@ html{
 
 
 #logo{
-	z-index: 1000;
-	margin-top: 50px;
+	z-index: 100;
+	margin-top: 100px;
 	margin-left: 10%;
-	height: 80px;
-	width: 80px;
+	height: 100px;
+	width: 100px;
 	opacity: 1;
 	cursor: pointer;}
 
@@ -67,7 +67,7 @@ html{
 	position:relative;}
 
 h1{
-  	margin-top: 180px;
+  	margin-top: 0px;
   	margin-bottom: 50px;
 	padding: 0px 0px;	
 	font-family: 'prism', Verdana, Arial, serif;
@@ -104,8 +104,8 @@ p{
 	z-index: 1000;
 	margin-top: 30px;
 	margin-right: 5%;
-	width: 80px;
-	height: 80px;
+	width: 100px;
+	height: 100px;
 	border: none;
 	cursor: pointer;
 	background-color: transparent;
@@ -295,5 +295,5 @@ p.pied_page{
   margin-bottom: 0%;
   color: white;
   text-align: center;
-  height: 50;
+  height: 70;
   line-height: 15px;}
