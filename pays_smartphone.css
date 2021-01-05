@@ -55,8 +55,8 @@ html{
 	z-index: 100;
 	margin-top: 100px;
 	margin-left: 10%;
-	height: 100px;
-	width: 100px;
+	height: 80px;
+	width: 80px;
 	opacity: 1;
 	cursor: pointer;}
 
@@ -103,7 +103,7 @@ p{
 	float: right;
 	z-index: 1000;
 	margin-top: 30px;
-	margin-right: 5%;
+	margin-right: 0%;
 	width: 100px;
 	height: 100px;
 	border: none;
@@ -235,7 +235,7 @@ p{
 	color: white;
 	font-family: 'prism', Verdana, Arial, serif;
 	font-weight: normal;
-	font-size: 6rem;
+	font-size: 7rem;
 	padding: 8px 12px;
 	position: absolute;
 	top: 48%;
@@ -249,8 +249,8 @@ p{
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 6px;
-  width: 6px;
+  height: 20px;
+  width: 20px;
   margin: 10px 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -295,5 +295,5 @@ p.pied_page{
   margin-bottom: 0%;
   color: white;
   text-align: center;
-  height: 70;
+  height: 50px;
   line-height: 15px;}
