@@ -60,11 +60,11 @@ html{
 	opacity: 1;
 	cursor: pointer;}
 
-#main{
+/*#main{
 	max-width:1280px;
 	min-height:100%;
 	margin:0 auto;
-	position:relative;}
+	position:relative;}*/
 
 h1{
   	margin-top: 0px;
@@ -202,9 +202,7 @@ p{
     transform: scale(1.06);}
 
 /* Hide the images by default */
-.mySlides {
-  display: none;
-}
+.mySlides {display: none;}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -222,13 +220,10 @@ p{
   user-select: none;}
 
 /* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;}
+.next {right: 0; border-radius: 3px 0 0 3px;}
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);}
+.prev:hover, .next:hover {background-color: rgba(0,0,0,0.8);}
 
 /* Caption text */
 .text {
@@ -249,16 +244,15 @@ p{
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 10px 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;}
 
-.active, .dot:hover {
-  background-color: #717171;}
+.active, .dot:hover {background-color: #717171;}
 
 /* Fading animation */
 .fade {
@@ -287,13 +281,13 @@ p{
 
 p.pied_page{
   background-color: #202020;
-  padding: 30px 0px; 
+  padding:30px 0px; 
   font-family: 'poiret', Verdana, serif;
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 0.8rem;
   margin-top: 100px;
   margin-bottom: 0%;
   color: white;
   text-align: center;
-  height: 100px;
-  line-height: 30px;}
+  height: 30;
+  line-height: 10px;}
