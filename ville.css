@@ -140,7 +140,7 @@ h3{
   width: 60px;
   height: 60px;}
 
-p.email{
+p.pied_page{
   background-color: #202020;
   padding:30px 0px; 
   font-family: 'poiret', Verdana, serif;
@@ -152,7 +152,3 @@ p.email{
   text-align: center;
   height: 30;
   line-height: 15px;}
-
-p.email a, a:active{
-  color: white;
-  text-decoration: none;}
