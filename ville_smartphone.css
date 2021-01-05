@@ -90,6 +90,15 @@ h2{
 	text-align: center;
 	color: black;}
 
+h3{
+  padding: 0px 0px; 
+  font-family: 'prism', Verdana, Arial, serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  text-align: left;
+  margin-left: 10%;
+  color: black;}
+
  p{
 	margin-top: 50px;
 	padding: 0px 10%;
@@ -143,3 +152,65 @@ p.pied_page{
   text-align: center;
   height: 30;
   line-height: 10px;}
+
+/*******************SLIDE SHOW ***********************************/
+/*https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 60%;
+    left: 20%;
+    position: relative;
+    margin-top : 30px;}
+
+/* Hide the images by default */
+.mySlides {display: none;}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;}
+
+/* Position the "next button" to the right */
+.next { right: 0; border-radius: 3px 0 0 3px;}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {background-color: rgba(0,0,0,0.8);}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 10px 2px;
+  margin-bottom: 0px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;}
+
+.active, .dot:hover {background-color: #717171;}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;}
+
+@-webkit-keyframes fade {from {opacity: .4} to {opacity: 1}}
+@keyframes fade {from {opacity: .4} to {opacity: 1}}
+/********************************************************/
+
