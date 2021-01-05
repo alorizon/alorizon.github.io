@@ -103,8 +103,8 @@ h2{
   margin-top: 5%;
   margin-left: 15%;
   text-align: center;
-  width: 70%;
-  height: 70%;}
+  width: 100%;
+  height: 100%;}
 
 .prev_city img{
   position: relative;
@@ -119,7 +119,7 @@ h2{
   margin-top: 0px;
   cursor: pointer;
   float: right;
-  margin-right: -100px;
+  margin-right: -180px;
   width: 100px;
   height: 100px;}
 
