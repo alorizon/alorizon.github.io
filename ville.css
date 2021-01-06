@@ -113,7 +113,6 @@ h3{
 .caption .text {display:none;}
 
 .caption:hover .text{
-  z-index: 200000;
   display:inline-block; 
   width:100%; 
   background-color:white;
