@@ -113,6 +113,7 @@ h3{
 .caption .text {display:none;}
 
 .caption:hover .text{
+  z-index: 200000;
   display:inline-block; 
   width:100%; 
   background-color:white;
@@ -125,6 +126,7 @@ h3{
   text-align: center;}
 
 em{font-size: 1rem; font-family: 'poiret', serif;}
+strong{font-size: 0.8rem; font-family: 'poiret', serif;}
 
 .carte img{
   margin-top: 5%;
@@ -135,6 +137,7 @@ em{font-size: 1rem; font-family: 'poiret', serif;}
 
 .prev_city img{
   position: relative;
+  z-index: 30;
   margin-top: 40px;
   cursor: pointer;
   float: right;
