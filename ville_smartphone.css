@@ -121,11 +121,11 @@ h3{
   cursor: pointer;
   float: right;
   margin-right: 200px;
-  width: 93px;
-  height: 93px;}
+  width: 90px;
+  height: 90px;}
 
 .next_city img{
-  margin-top: -20px;
+  margin-top: 0px;
   cursor: pointer;
   float: right;
   margin-right: -200px;
