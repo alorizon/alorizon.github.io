@@ -3,12 +3,6 @@
   width: 80%;
   margin: 2rem auto; }
 
-.caption:hover{transform: scale(1.2); transition: 0.5s;}
-
-.caption .text {display:none;}
-
-.caption:hover .text{display:inline-block; width:100%; background-color:yellow;}
-
 .gallery{
   display: grid;
   grid-template-columns: repeat(8, 1.5fr);

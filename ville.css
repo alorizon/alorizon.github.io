@@ -108,6 +108,24 @@ h3{
 	text-align: justify;
 	color: black;}
 
+.caption:hover{transform: scale(1.2); transition: 0.5s;}
+
+.caption .text {display:none;}
+
+.caption:hover .text{
+  display:inline-block; 
+  width:100%; 
+  background-color:white;
+  filter: drop-shadow(0 0 100px black);
+  border-radius: 0 0 10px 10px;
+  font-family: 'old', Verdana, Arial, serif;
+  font-size: 0.8rem;
+  margin-top:-5px;
+  padding: 15px 15px;
+  text-align: center;}
+
+em{font-size: 1rem; font-family: 'poiret', serif;}
+
 .carte img{
   margin-top: 5%;
   margin-left: 15%;
