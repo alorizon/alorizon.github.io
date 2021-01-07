@@ -144,6 +144,16 @@ strong{font-size: 0.8rem; font-family: 'poiret', serif;}
   width: 53px;
   height: 53px;}
 
+.prev_city_only img{
+  position: relative;
+  z-index: 30;
+  margin-top: 40px;
+  cursor: pointer;
+  float: right;
+  margin-right: 7%;
+  width: 53px;
+  height: 53px;}
+
 .next_city img{
   margin-top: 20px;
   cursor: pointer;
