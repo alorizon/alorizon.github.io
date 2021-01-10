@@ -94,6 +94,7 @@ h2{
 	color: black;}
 
 p{
+	padding: 0 50px;
 	margin-bottom: 10%;
 	font-family: 'old', Verdana, Arial, serif;
 	font-size: 1.1rem;
