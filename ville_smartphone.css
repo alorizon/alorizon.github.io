@@ -109,11 +109,11 @@ h3{
 	text-align: justify;
 	color: black;}
 
-.caption:active{transform: scale(1.5); transition: 0.5s;}
+.caption:hover{transform: scale(1.5); transition: 0.5s;}
 
 .caption .text {display:none;}
 
-.caption:active .text{
+.caption:hover .text{
   display:inline-block; 
   width:100%; 
   background-color:white;
