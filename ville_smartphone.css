@@ -244,3 +244,10 @@ p.pied_page{
 @keyframes fade {from {opacity: .4} to {opacity: 1}}
 /********************************************************/
 
+ul{
+  margin-left: 14%; 
+  line-height:18px;
+  font-size:1rem; 
+  font-family: 'old',serif;
+  text-align: justify;
+  margin-right: 10%;}
